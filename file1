@@ -1,0 +1,9 @@
+ft_split.c
+ft_split.h
+ft_split.o
+pipe_man.c
+pipe_man.h
+pipe_man.o
+pipex
+pipex.c
+pipex.o
