@@ -1,4 +1,3 @@
-# pipex-42School
 # 🧪 Pipex - 42 School Project
 
 ## 📖 Description
@@ -9,8 +8,12 @@ It aims to recreate the behavior of shell pipelines using system calls like `for
 The program emulates the shell behavior of piping commands together with redirection, for example:
 
 ```bash
-< infile cmd1 | cmd2 outfile
+< infile cmd1 | cmd2 > outfile
 ```
+
+📦 Usage
+./pipex infile "cmd1" "cmd2" outfile
+
 ### 🧪 Example
 
 Suppose `file1` contains a list of files in the current directory.  
